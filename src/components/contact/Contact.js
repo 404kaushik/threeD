@@ -1,9 +1,9 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import { useRef } from "react";
-import { Container, Typography, TextField, Button } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import { TextDecrypt } from "../content/TextDecrypt";
+import { Container, Typography, TextField, Button } from "@material-ui/core";
 import Swal from 'sweetalert2';
 
 import emailjs from '@emailjs/browser';
@@ -51,9 +51,6 @@ export const Contact = () => {
     })
     e.target.reset()
   };
-
-
-
     return (
       <section id="contact">
         <Container component="main" className={classes.main} maxWidth="md">

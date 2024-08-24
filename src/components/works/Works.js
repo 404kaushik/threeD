@@ -11,6 +11,12 @@ import './Works.css';
 
 // Import ../../assets/recentprojects/
 import Portfolio from '../../assets/recentprojects/react-portfolio.png';
+import hm1 from '../../assets/recentprojects/hostel1.png'
+import hm2 from '../../assets/recentprojects/hostel2.png'
+import hm3 from '../../assets/recentprojects/hostel3.png'
+import hm4 from '../../assets/recentprojects/hostel4.png'
+import hm5 from '../../assets/recentprojects/hostel5.png'
+import hm6 from '../../assets/recentprojects/hostel6.png'
 import Veritru from '../../assets/recentprojects/veritru.png';
 import Lofo from '../../assets/recentprojects/lofo.png';
 import Startup from '../../assets/recentprojects/startup.png';
@@ -33,43 +39,22 @@ export const Works = () => {
       description: `Designed and developed a ReactJS portfolio 
       with fancy 3D animations using Three.js for 
       the background element.`,
-      alter: 'React Portfolio',
-      images: [Portfolio, Veritru], // Add multiple images for the carousel
+      alter: 'HostelMatch',
+      images: [hm1, hm2, hm3, hm4, hm5, hm6], // Add multiple images for the carousel
+      webLink: 'https://www.hostelmatch.com/',
+      github: 'https://github.com/your-github-username/hostelmatch',
     },
     { 
       id: 2,
-      title: 'VeriTru Project', 
-      description: `An advocacy project website built using
-      MEAN stack with fact-checking tool to promote actions against
-      fake news.`,
-      alter: 'VeriTru Project',
-      images: [Veritru, Lofo], // Add multiple images for the carousel
-    },
-    { 
-      id: 3,
-      title: 'LoFo Project', 
-      description: `Logistics and Forwarding website built using
-      ReactJS to design and develop its front-end.`,
-      alter: 'LoFo Project',
-      images: [Lofo, Startup], // Add multiple images for the carousel
-    },
-    { 
-      id: 4,
-      title: 'Startup Project', 
-      description: `A website portfolio project for the Startup Dev Team
-      built using MEVN stack to demonstrate the CRUD capabilities of the tech stack.`,
-      alter: 'Startup Project',
-      images: [Startup, Lacalle], // Add multiple images for the carousel
-    },
-    { 
-      id: 5,
-      title: 'LaCalle Cafe', 
-      description: `A website project for the La Calle Cafe business
-      built using Wordpress and PHP with integrated SEO tools to help
-      the business ramp up its prospects and lead generation.`,
-      alter: 'LaCalle Cafe Project',
-      images: [Lacalle, Portfolio], // Add multiple images for the carousel
-    },
+      title: 'EasyFits Website', 
+      description: `Designed and developed a ReactJS portfolio 
+      with fancy 3D animations using Three.js for 
+      the background element.`,
+      alter: 'EasyFits',
+      images: [Lacalle], // Add multiple images for the carousel
+      webLink: 'https://easyfits.ca/',
+      github: 'https://github.com/your-github-username/hostelmatch',
+    }
   ]);
 
   return (
@@ -93,6 +78,10 @@ export const Works = () => {
               <p className="description">
                 { project.description }
               </p>
+              <div>
+              <a href={project.webLink} class="btn red circular">Live Website</a>
+              <a href={project.github} class="btn red circular">Project Link</a>
+              </div>
             </div>
           </div>
         ))}
