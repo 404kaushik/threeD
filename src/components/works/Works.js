@@ -17,10 +17,16 @@ import hm3 from '../../assets/recentprojects/hostel3.png'
 import hm4 from '../../assets/recentprojects/hostel4.png'
 import hm5 from '../../assets/recentprojects/hostel5.png'
 import hm6 from '../../assets/recentprojects/hostel6.png'
+import ef1 from '../../assets/recentprojects/ef1.png'
+import ef2 from '../../assets/recentprojects/ef2.png'
+import ef3 from '../../assets/recentprojects/ef3.png'
+import ef4 from '../../assets/recentprojects/ef4.png'
+import vs1 from '../../assets/recentprojects/vs1.png'
+import vs2 from '../../assets/recentprojects/vs2.png'
 import Veritru from '../../assets/recentprojects/veritru.png';
 import Lofo from '../../assets/recentprojects/lofo.png';
 import Startup from '../../assets/recentprojects/startup.png';
-import Lacalle from '../../assets/recentprojects/lacalle.png';
+
 
 const useStyles = makeStyles((theme) => ({
   main: {
@@ -42,7 +48,7 @@ export const Works = () => {
       alter: 'HostelMatch',
       images: [hm1, hm2, hm3, hm4, hm5, hm6], // Add multiple images for the carousel
       webLink: 'https://www.hostelmatch.com/',
-      github: 'https://github.com/your-github-username/hostelmatch',
+      github: 'https://github.com/404kaushik/hostelmatch-project',
     },
     { 
       id: 2,
@@ -51,8 +57,17 @@ export const Works = () => {
       with fancy 3D animations using Three.js for 
       the background element.`,
       alter: 'EasyFits',
-      images: [Lacalle], // Add multiple images for the carousel
+      images: [ef1,ef2,ef3,ef4], // Add multiple images for the carousel
       webLink: 'https://easyfits.ca/',
+      github: 'https://github.com/404kaushik/easyfits_website',
+    },
+    { 
+      id: 3,
+      title: 'Photography', 
+      description: `Checkout my VSCO account for a glimpse of my photography skills`,
+      alter: 'VSCO',
+      images: [vs1,vs2], // Add multiple images for the carousel
+      webLink: 'https://vsco.co/404kaushik',
       github: 'https://github.com/your-github-username/hostelmatch',
     }
   ]);
@@ -78,9 +93,9 @@ export const Works = () => {
               <p className="description">
                 { project.description }
               </p>
-              <div>
-              <a href={project.webLink} class="btn red circular">Live Website</a>
-              <a href={project.github} class="btn red circular">Project Link</a>
+              <div className="live">
+              <a href={project.webLink} class="btn red circular" target="_blank" rel="noopener noreferrer">Live Website</a>
+              <a href={project.github} class="btn red circular" target="_blank" rel="noopener noreferrer">Project Link</a>
               </div>
             </div>
           </div>
