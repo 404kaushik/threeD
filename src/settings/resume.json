@@ -4,7 +4,7 @@
         "label": "Web Developer",
         "email": "kaushiknag72@outlook.com",
         "phone": "(647) 835-6393",
-        "picture": "mt.png",
+        "picture": "profile.png",
         "x_title": "Hello, I'm",
         "job1": "Developer",
         "job2": "Designer",
@@ -13,12 +13,12 @@
         "keywords": "personal,website,portfolio,template,kit,kaushik,webdev,web,developer,peterborough,ontario,react,github,linkedin,google,gitlab,telegram,material,design,ui,webapp,markdown",
         "url": "https://kaushik-nag.vercel.app/",
         "location": {
-            "address": "XX XXXXXstreet",
-            "postalCode": "XXXXX",
-            "city": "Angeles",
-            "country": "Philippines",
-            "countryCode": "PH",
-            "region": "Pampanga"
+            "address": "30 Champlain Crescent",
+            "postalCode": "K9L 1T1",
+            "city": "Peterborough",
+            "country": "Canada",
+            "countryCode": "CA",
+            "region": "Ontario"
         },
         "profiles": [
             {
