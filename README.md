@@ -1,7 +1,5 @@
 # Personal Portfolio Website built with React v16
 
-[![Screenshot](/public/social-image.png?raw=true)](https://taniyow.vercel.app)
-
 [![Website mctan.dev](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://mctan.dev)
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/taniyow/taniyow-portfolio-react/blob/master/LICENSE)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/taniyow/taniyow-portfolio-react/graphs/commit-activity)
