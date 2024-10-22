@@ -25,9 +25,12 @@ import vs2 from '../../assets/recentprojects/vs2.png'
 import bi1 from '../../assets/recentprojects/bi1.png'
 import bi2 from '../../assets/recentprojects/bi2.png'
 import bi3 from '../../assets/recentprojects/bi3.png'
-import Veritru from '../../assets/recentprojects/veritru.png';
-import Lofo from '../../assets/recentprojects/lofo.png';
-import Startup from '../../assets/recentprojects/startup.png';
+import ht0 from '../../assets/recentprojects/ht-0.png'
+import ht1 from '../../assets/recentprojects/ht-1.png'
+import ht2 from '../../assets/recentprojects/ht-2.png'
+import ht3 from '../../assets/recentprojects/ht-3.png'
+import ht4 from '../../assets/recentprojects/ht-4.png'
+import ht5 from '../../assets/recentprojects/ht-5.png'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -61,6 +64,15 @@ export const Works = () => {
     },
     { 
       id: 3,
+      title: 'Hack Trent Website', 
+      description: `As the Vice President Of Technology at the Trent Computer Science Student Association, I, along with 2 others was responsible for creating the application website for the hackathon at Trent University. The tech stack we used were React, Tailwind and Javascript for the frontend and Node express for the Backend and Postgresql for database management. Along with that I used render for backend hosting and vercel for frontend hosting. The website had over 500+ users register and apply for the hackathon.`,
+      alter: 'VSCO',
+      images: [ht0,ht1,ht2,ht3,ht4,ht5], // Add multiple images for the carousel
+      webLink: 'https://www.hacktrent.ca',
+      github: 'https://github.com/404kaushik/pizza-sales',
+    },
+    { 
+      id: 5,
       title: 'Photography', 
       description: `Checkout my VSCO account for a glimpse of my photography skills`,
       alter: 'VSCO',
@@ -76,7 +88,7 @@ export const Works = () => {
       images: [bi1,bi2, bi3], // Add multiple images for the carousel
       webLink: 'https://drive.google.com/file/d/106lm1JWsj65tQDa1sp9hf7aV-1zoOEdg/view?usp=sharing',
       github: 'https://github.com/404kaushik/pizza-sales',
-    }
+    },
   ]);
 
   return (
